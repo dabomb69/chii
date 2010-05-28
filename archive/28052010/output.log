@@ -1,0 +1,2718 @@
+Executing config file...  [  [32mOK[0m  ] (chii from chii.conf)
+Trying Time::HiRes...     [  [32mOK[0m  ] (hi-resolution ping times enabled)
+Trying to set alarm...    [  [32mOK[0m  ] (will detect timeout)
+Loading modules...
+Loading factoids...       [  [32mOK[0m  ] (loaded 17 factoids (2 denied))
+Connecting to server...   [  [32mOK[0m  ] (connected to localhost:7000)
+SEND: SERVER chii. password 0 666 :Chii (Hideki is the hentai in all of us)
+SEND: BURST
+SEND: :666 VERSION :Chii (Hideki is the hentai in all of us)
+SEND: :666 UID 666AAAAAA 1 chii chii. chii. chii 127.0.0.1 1 +iIwks +* :Chii (Hideki is the hentai in all of us)
+SEND: :666AAAAAA OPERTYPE Service
+SEND: PRIVMSG # :Connected to localhost
+SEND: :666 FJOIN #services 1262923812 + :ao,666AAAAAA
+SEND: :666 FMODE #services 1 +ao chii chii
+SEND: :666 PRIVMSG # :Channel #services joined.
+SEND: :666 FJOIN # 1262923812 + :ao,666AAAAAA
+SEND: :666 FMODE # 1 +ao chii chii
+SEND: :666 FJOIN ### 1262923812 + :ao,666AAAAAA
+SEND: :666 FMODE ### 1 +ao chii chii
+SEND: ENDBURST
+SEND: :666 FJOIN #lobby 1262923812 + :ao,666AAAAAA
+SEND: :666 FMODE #lobby 1 +ao chii chii
+SEND: :666 PRIVMSG # :Channel #lobby joined.
+SEND: :666 FJOIN # 1262923812 + :ao,666AAAAAA
+SEND: :666 FMODE # 1 +ao chii chii
+SEND: :666 FJOIN ### 1262923812 + :ao,666AAAAAA
+SEND: :666 FMODE ### 1 +ao chii chii
+SEND: ENDBURST
+SEND: :666 FJOIN #artemis 1262923812 + :ao,666AAAAAA
+SEND: :666 FMODE #artemis 1 +ao chii chii
+SEND: :666 PRIVMSG # :Channel #artemis joined.
+SEND: :666 FJOIN # 1262923812 + :ao,666AAAAAA
+SEND: :666 FMODE # 1 +ao chii chii
+SEND: :666 FJOIN ### 1262923812 + :ao,666AAAAAA
+SEND: :666 FMODE ### 1 +ao chii chii
+SEND: ENDBURST
+SEND: :666 METADATA 666AAAAAA accountname chii
+RAW : CAPAB START
+
+
+TEXT: CAPAB START
+MSG2: 
+NICK: CAPAB (CAPAB)
+CMND: START
+USER:  
+
+RAW : CAPAB MODULES m_allowinvite.so,m_alltime.so,m_auditorium.so,m_banexception.so,m_banredirect.so,m_blockcaps.so,m_blockcolor.so,m_botmode.so,m_callerid.so,m_cban.so,m_censor.so,m_chanprotect.so,m_chghost.so,m_chgident.so,m_chgname.so,m_cloaking.so,m_commonchans.so,m_deaf.so,m_delayjoin.so,m_gecosban.so,m_globops.so,m_helpop.so,m_hidechans.so,m_hideoper.so,m_invisible.so,m_inviteexception.so,m_joinflood.so,m_kicknorejoin.so,m_knock.so,m_messageflood.so,m_muteban.so,m_nickflood.so,m_nicklock.so,m_noctcp.so
+
+
+TEXT: CAPAB MODULES m_allowinvite.so,m_alltime.so,m_auditorium.so,m_banexception.so,m_banredirect.so,m_blockcaps.so,m_blockcolor.so,m_botmode.so,m_callerid.so,m_cban.so,m_censor.so,m_chanprotect.so,m_chghost.so,m_chgident.so,m_chgname.so,m_cloaking.so,m_commonchans.so,m_deaf.so,m_delayjoin.so,m_gecosban.so,m_globops.so,m_helpop.so,m_hidechans.so,m_hideoper.so,m_invisible.so,m_inviteexception.so,m_joinflood.so,m_kicknorejoin.so,m_knock.so,m_messageflood.so,m_muteban.so,m_nickflood.so,m_nicklock.so,m_noctcp.so
+MSG2: m_allowinvite.so,m_alltime.so,m_auditorium.so,m_banexception.so,m_banredirect.so,m_blockcaps.so,m_blockcolor.so,m_botmode.so,m_callerid.so,m_cban.so,m_censor.so,m_chanprotect.so,m_chghost.so,m_chgident.so,m_chgname.so,m_cloaking.so,m_commonchans.so,m_deaf.so,m_delayjoin.so,m_gecosban.so,m_globops.so,m_helpop.so,m_hidechans.so,m_hideoper.so,m_invisible.so,m_inviteexception.so,m_joinflood.so,m_kicknorejoin.so,m_knock.so,m_messageflood.so,m_muteban.so,m_nickflood.so,m_nicklock.so,m_noctcp.so
+NICK: CAPAB (CAPAB)
+CMND: MODULES
+USER:  
+
+RAW : CAPAB MODULES m_nokicks.so,m_nonicks.so,m_nonotice.so,m_operchans.so,m_operinvex.so,m_permchannels.so,m_redirect.so,m_regex_glob.so,m_remove.so,m_rline.so,m_sajoin.so,m_sakick.so,m_sanick.so,m_sapart.so,m_saquit.so,m_services_account.so,m_servprotect.so,m_setident.so,m_shun.so,m_silence.so,m_stripcolor.so,m_svshold.so,m_timedbans.so
+
+
+TEXT: CAPAB MODULES m_nokicks.so,m_nonicks.so,m_nonotice.so,m_operchans.so,m_operinvex.so,m_permchannels.so,m_redirect.so,m_regex_glob.so,m_remove.so,m_rline.so,m_sajoin.so,m_sakick.so,m_sanick.so,m_sapart.so,m_saquit.so,m_services_account.so,m_servprotect.so,m_setident.so,m_shun.so,m_silence.so,m_stripcolor.so,m_svshold.so,m_timedbans.so
+MSG2: m_nokicks.so,m_nonicks.so,m_nonotice.so,m_operchans.so,m_operinvex.so,m_permchannels.so,m_redirect.so,m_regex_glob.so,m_remove.so,m_rline.so,m_sajoin.so,m_sakick.so,m_sanick.so,m_sapart.so,m_saquit.so,m_services_account.so,m_servprotect.so,m_setident.so,m_shun.so,m_silence.so,m_stripcolor.so,m_svshold.so,m_timedbans.so
+NICK: CAPAB (CAPAB)
+CMND: MODULES
+USER:  
+
+RAW : CAPAB CAPABILITIES :NICKMAX=32 HALFOP=1 CHANMAX=65 MAXMODES=20 IDENTMAX=12 MAXQUIT=256 MAXTOPIC=308 MAXKICK=256 MAXGECOS=129 MAXAWAY=201 IP6NATIVE=1 IP6SUPPORT=1 PROTOCOL=1201 CHALLENGE=/+?}?-%/a'mk{#/!3- PREFIX=(qaohv)~&@%+ CHANMODES=Ibe,k,FJLfjl,ABCDGKMNOPQRSTcimnprstu USERMODES=,,s,BGHIQRScdghikorwx SVSPART=1
+
+
+TEXT: CAPAB CAPABILITIES :NICKMAX=32 HALFOP=1 CHANMAX=65 MAXMODES=20 IDENTMAX=12 MAXQUIT=256 MAXTOPIC=308 MAXKICK=256 MAXGECOS=129 MAXAWAY=201 IP6NATIVE=1 IP6SUPPORT=1 PROTOCOL=1201 CHALLENGE=/+?}?-%/a'mk{#/!3- PREFIX=(qaohv)~&@%+ CHANMODES=Ibe,k,FJLfjl,ABCDGKMNOPQRSTcimnprstu USERMODES=,,s,BGHIQRScdghikorwx SVSPART=1
+MSG2: :NICKMAX=32
+NICK: NICKMAX=32 (NICKMAX=32)
+CMND: HALFOP=1
+USER:  
+
+RAW : CAPAB END
+
+
+TEXT: CAPAB END
+MSG2: 
+NICK: CAPAB (CAPAB)
+CMND: END
+USER:  
+
+RAW : SERVER chaos.spartairc.co.cc password 0 692 :Sparta Project IRC
+
+
+TEXT: SERVER chaos.spartairc.co.cc password 0 692 :Sparta Project IRC
+MSG2: password
+NICK: Sparta (Sparta)
+CMND: Project
+USER:  
+
+RAW : :692 BURST 1262923812
+
+
+TEXT: :692 BURST 1262923812
+MSG2: 1262923812
+NICK: 692 (692)
+CMND: BURST
+USER:  
+
+RAW : :692 VERSION :InspIRCd-1.2 chaos.spartairc.co.cc :Linux Chaos 2.6.28-11-generic (InspIRCd-1.2.1) [FLAGS=0,epoll,692]
+
+
+TEXT: InspIRCd-1.2 chaos.spartairc.co.cc :Linux Chaos 2.6.28-11-generic (InspIRCd-1.2.1) [FLAGS=0,epoll,692]
+MSG2: :InspIRCd-1.2
+NICK: 692 (692)
+CMND: VERSION
+USER:  
+
+RAW : :chaos.spartairc.co.cc SERVER thanatos.spartairc.co.cc * 1 134 :Sparta Project IRC
+
+
+TEXT: Sparta Project IRC
+MSG2: thanatos.spartairc.co.cc
+NICK: chaos.spartairc.co.cc (chaos.spartairc.co.cc)
+CMND: SERVER
+USER:  
+
+RAW : :thanatos.spartairc.co.cc VERSION :InspIRCd-1.2 thanatos.spartairc.co.cc :Linux chronos.spartairc.co.cc 2.6.18-92.1.18.el5.028stab060.2 (InspIRCd-1.2.0) [FLAGS=0,epoll,134]
+
+
+TEXT: InspIRCd-1.2 thanatos.spartairc.co.cc :Linux chronos.spartairc.co.cc 2.6.18-92.1.18.el5.028stab060.2 (InspIRCd-1.2.0) [FLAGS=0,epoll,134]
+MSG2: :InspIRCd-1.2
+NICK: thanatos.spartairc.co.cc (thanatos.spartairc.co.cc)
+CMND: VERSION
+USER:  
+
+RAW : :thanatos.spartairc.co.cc SERVER athena.jcs.me.uk * 2 42U :Sparta Project IRC
+
+
+TEXT: Sparta Project IRC
+MSG2: athena.jcs.me.uk
+NICK: thanatos.spartairc.co.cc (thanatos.spartairc.co.cc)
+CMND: SERVER
+USER:  
+
+RAW : :athena.jcs.me.uk VERSION :InspIRCd-1.2 athena.jcs.me.uk :Linux Utilities 2.6.26-2-openvz-686 (InspIRCd-1.2.1) [FLAGS=0,epoll,42U]
+
+
+TEXT: InspIRCd-1.2 athena.jcs.me.uk :Linux Utilities 2.6.26-2-openvz-686 (InspIRCd-1.2.1) [FLAGS=0,epoll,42U]
+MSG2: :InspIRCd-1.2
+NICK: athena.jcs.me.uk (athena.jcs.me.uk)
+CMND: VERSION
+USER:  
+
+RAW : :athena.jcs.me.uk SERVER hera.jcs.me.uk * 3 42H :Sparta Project IRC
+
+
+TEXT: Sparta Project IRC
+MSG2: hera.jcs.me.uk
+NICK: athena.jcs.me.uk (athena.jcs.me.uk)
+CMND: SERVER
+USER:  
+
+RAW : :hera.jcs.me.uk VERSION :InspIRCd-1.2 hera.jcs.me.uk :Linux Utilities 2.6.26-2-openvz-686 (InspIRCd-1.2.1) [FLAGS=0,epoll,42H]
+
+
+TEXT: InspIRCd-1.2 hera.jcs.me.uk :Linux Utilities 2.6.26-2-openvz-686 (InspIRCd-1.2.1) [FLAGS=0,epoll,42H]
+MSG2: :InspIRCd-1.2
+NICK: hera.jcs.me.uk (hera.jcs.me.uk)
+CMND: VERSION
+USER:  
+
+RAW : :athena.jcs.me.uk SERVER demeter.jcs.me.uk * 3 42Z :Sparta Project IRC
+
+
+TEXT: Sparta Project IRC
+MSG2: demeter.jcs.me.uk
+NICK: athena.jcs.me.uk (athena.jcs.me.uk)
+CMND: SERVER
+USER:  
+
+RAW : :demeter.jcs.me.uk VERSION :InspIRCd-1.2 demeter.jcs.me.uk :Linux utilities 2.6.26-2-openvz-686 (InspIRCd-1.2.1) [FLAGS=0,epoll,42Z]
+
+
+TEXT: InspIRCd-1.2 demeter.jcs.me.uk :Linux utilities 2.6.26-2-openvz-686 (InspIRCd-1.2.1) [FLAGS=0,epoll,42Z]
+MSG2: :InspIRCd-1.2
+NICK: demeter.jcs.me.uk (demeter.jcs.me.uk)
+CMND: VERSION
+USER:  
+
+RAW : :athena.jcs.me.uk SERVER ares.jcs.me.uk * 3 42A :Sparta Project IRC
+
+
+TEXT: Sparta Project IRC
+MSG2: ares.jcs.me.uk
+NICK: athena.jcs.me.uk (athena.jcs.me.uk)
+CMND: SERVER
+USER:  
+
+RAW : :ares.jcs.me.uk VERSION :InspIRCd-1.2 ares.jcs.me.uk :Linux ares 2.6.26-2-openvz-686 (InspIRCd-1.2.0) [FLAGS=0,epoll,42A]
+
+
+TEXT: InspIRCd-1.2 ares.jcs.me.uk :Linux ares 2.6.26-2-openvz-686 (InspIRCd-1.2.0) [FLAGS=0,epoll,42A]
+MSG2: :InspIRCd-1.2
+NICK: ares.jcs.me.uk (ares.jcs.me.uk)
+CMND: VERSION
+USER:  
+
+RAW : :ares.jcs.me.uk SERVER services.jcs.me.uk * 4 42S :Atheme IRC Services on ares.jcs.me.uk
+
+
+TEXT: Atheme IRC Services on ares.jcs.me.uk
+MSG2: services.jcs.me.uk
+NICK: ares.jcs.me.uk (ares.jcs.me.uk)
+CMND: SERVER
+USER:  
+
+RAW : :services.jcs.me.uk VERSION :atheme-3.1.2. 42S FjRr
+
+
+TEXT: atheme-3.1.2. 42S FjRr
+MSG2: :atheme-3.1.2.
+NICK: services.jcs.me.uk (services.jcs.me.uk)
+CMND: VERSION
+USER:  
+
+RAW : :services.jcs.me.uk SERVER eos.spartairc.co.cc * 5 42W :Juped
+
+
+TEXT: Juped
+MSG2: eos.spartairc.co.cc
+NICK: services.jcs.me.uk (services.jcs.me.uk)
+CMND: SERVER
+USER:  
+
+RAW : :eos.spartairc.co.cc VERSION :
+
+
+TEXT: 
+MSG2: :
+NICK: eos.spartairc.co.cc (eos.spartairc.co.cc)
+CMND: VERSION
+USER:  
+
+RAW : :athena.jcs.me.uk SERVER stats.jcs.me.uk * 3 42D :Statistics for IRC Networks
+
+
+TEXT: Statistics for IRC Networks
+MSG2: stats.jcs.me.uk
+NICK: athena.jcs.me.uk (athena.jcs.me.uk)
+CMND: SERVER
+USER:  
+
+RAW : :stats.jcs.me.uk VERSION :Denora-1.4.5.347 (SVN) stats.jcs.me.uk :InspIRCd 1.2.x -- build #1, compiled Nov  8 2009 01:05:29
+
+
+TEXT: Denora-1.4.5.347 (SVN) stats.jcs.me.uk :InspIRCd 1.2.x -- build #1, compiled Nov  8 2009 01:05:29
+MSG2: :Denora-1.4.5.347
+NICK: stats.jcs.me.uk (stats.jcs.me.uk)
+CMND: VERSION
+USER:  
+
+RAW : :athena.jcs.me.uk SERVER zeus.jcs.me.uk * 3 42E :Sparta Project IRC
+
+
+TEXT: Sparta Project IRC
+MSG2: zeus.jcs.me.uk
+NICK: athena.jcs.me.uk (athena.jcs.me.uk)
+CMND: SERVER
+USER:  
+
+RAW : :zeus.jcs.me.uk VERSION :InspIRCd-1.2 zeus.jcs.me.uk :Linux ares 2.6.26-2-openvz-686 (InspIRCd-1.2.0) [FLAGS=0,epoll,42E]
+
+
+TEXT: InspIRCd-1.2 zeus.jcs.me.uk :Linux ares 2.6.26-2-openvz-686 (InspIRCd-1.2.0) [FLAGS=0,epoll,42E]
+MSG2: :InspIRCd-1.2
+NICK: zeus.jcs.me.uk (zeus.jcs.me.uk)
+CMND: VERSION
+USER:  
+
+RAW : :athena.jcs.me.uk SERVER defender.jcs.me.uk * 3 43D :Defender
+
+
+TEXT: Defender
+MSG2: defender.jcs.me.uk
+NICK: athena.jcs.me.uk (athena.jcs.me.uk)
+CMND: SERVER
+USER:  
+
+RAW : :defender.jcs.me.uk VERSION :IRC Defender 1.5.2
+
+
+TEXT: IRC Defender 1.5.2
+MSG2: :IRC
+NICK: defender.jcs.me.uk (defender.jcs.me.uk)
+CMND: VERSION
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWLH 1262856165 MasterOfDisguise 76.175.238.206 ProjectCommunity/GC/MasterOfDisguise ~chatzilla 76.175.238.206 1262856170 +i :MasterOfDisguise
+RAW : :42AAACWLH AWAY :Asleep
+
+
+TEXT: Asleep
+MSG2: :Asleep
+NICK: 42AAACWLH (42AAACWLH)
+CMND: AWAY
+USER:  
+
+RAW : :692 METADATA 42AAACWLH accountname :MasterOfDisguise
+
+
+TEXT: MasterOfDisguise
+MSG2: 42AAACWLH
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWRE 1262913196 Than-Def-test 69.162.79.5 69.162.79.5 ircd-1 69.162.79.5 1262913191 +i :Unknown
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42S UID 42SAAAAAH 1262045835 ALIS services.jcs.me.uk services.jcs.me.uk alis 0.0.0.0 1262045835 +io :Channel Directory
+RAW : :42SAAAAAH OPERTYPE Services
+
+
+TEXT: :42SAAAAAH OPERTYPE Services
+MSG2: Services
+NICK: 42SAAAAAH (42SAAAAAH)
+CMND: OPERTYPE
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42S UID 42SAAAAAL 1262045835 ChanServ this.is.CHANSERV this.is.CHANSERV ChanServ 0.0.0.0 1262045835 +io :Channel Services
+RAW : :42SAAAAAL OPERTYPE Services
+
+
+TEXT: :42SAAAAAL OPERTYPE Services
+MSG2: Services
+NICK: 42SAAAAAL (42SAAAAAL)
+CMND: OPERTYPE
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWLA 1262855643 JStoker_DFEY 212.13.195.99 212.13.195.99 jstoker 212.13.195.99 1262855648 +iw :JStoker
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWSS 1262922544 Marlen_Jackson 98.202.196.76 unaffilated/javawizard2539/bot/marlen ~Marlen_Jackso 98.202.196.76 1262922549 +Biw :JZBot -- http://jzbot.googlecode.com
+RAW : :692 METADATA 42AAACWSS accountname :Marlen_Jackson
+
+
+TEXT: Marlen_Jackson
+MSG2: 42AAACWSS
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :134 UID 134AAAAB4 1262565153 irssi we.pwn.freenode.at.spartairc.co.cc we.pwn.freenode.at.spartairc.co.cc utilities 216.245.214.108 1262565158 +iosx +CQcq :Chazz's irssi
+RAW : :134AAAAB4 OPERTYPE NetAdmin
+
+
+TEXT: :134AAAAB4 OPERTYPE NetAdmin
+MSG2: NetAdmin
+NICK: 134AAAAB4 (134AAAAB4)
+CMND: OPERTYPE
+USER:  
+
+RAW : :692 METADATA 134AAAAB4 accountname :Chazz
+
+
+TEXT: Chazz
+MSG2: 134AAAAB4
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWP6 1262903120 KevinM 173.67.38.42 173.67.38.42 ~kevin 173.67.38.42 1262903125 + :Kevin M
+RAW : :692 METADATA 42AAACWP6 accountname :KevinM
+
+
+TEXT: KevinM
+MSG2: 42AAACWP6
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42S UID 42SAAAAAB 1262045835 NickServ this.is.NICKSERV this.is.NICKSERV NickServ 0.0.0.0 1262045835 +io :Nickname Services
+RAW : :42SAAAAAB OPERTYPE Services
+
+
+TEXT: :42SAAAAAB OPERTYPE Services
+MSG2: Services
+NICK: 42SAAAAAB (42SAAAAAB)
+CMND: OPERTYPE
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWLK 1262856722 fishbot 98.170.207.192 go.moo.oh.yes.they.do fish 98.170.207.192 1262856727 + :Teh f1shb0t <°)))))><
+RAW : :692 METADATA 42AAACWLK accountname :fishbot
+
+
+TEXT: fishbot
+MSG2: 42AAACWLK
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :134 UID 134AAAAC3 1262912334 Chazz bb-183-006.omnitelcom.com SpartaIRC/Developer/Chazz dabomb69 208.126.183.6 1262912290 +oswx +ACGJKLNOQacdfgjklnoqtx :Chazz Wolcott
+RAW : :134AAAAC3 OPERTYPE NetAdmin
+
+
+TEXT: :134AAAAC3 OPERTYPE NetAdmin
+MSG2: NetAdmin
+NICK: 134AAAAC3 (134AAAAC3)
+CMND: OPERTYPE
+USER:  
+
+RAW : :692 METADATA 134AAAAC3 accountname :Chazz
+
+
+TEXT: Chazz
+MSG2: 134AAAAC3
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42S UID 42SAAAAAE 1262045835 MemoServ this.is.MEMOSERV this.is.MEMOSERV MemoServ 0.0.0.0 1262045835 +io :Memo Services
+RAW : :42SAAAAAE OPERTYPE Services
+
+
+TEXT: :42SAAAAAE OPERTYPE Services
+MSG2: Services
+NICK: 42SAAAAAE (42SAAAAAE)
+CMND: OPERTYPE
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWQ2 1262910317 MrDudle 24.116.106.233 SpartaIRC/Staff/MrDudle ~MrDudle[c] 24.116.106.233 1262910322 + :MrDudle[d]
+RAW : :692 METADATA 42AAACWQ2 accountname :MrDudle
+
+
+TEXT: MrDudle
+MSG2: 42AAACWQ2
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWQK 1262907002 jcp 98.202.196.76 unaffiliated/javawizard2539 ~jwiz 98.202.196.76 1262907007 +i :Alex
+RAW : :692 METADATA 42AAACWQK accountname :jcp
+
+
+TEXT: jcp
+MSG2: 42AAACWQK
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG #Staff :4WARNING: User Darkedge has attempted to connect. Proper action has been taken.
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWSR 1262922378 Darkedge 220.253.176.206 220.253.176.206 ~darkedge 220.253.176.206 1262922383 +i :Aran
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACTNQ 1261837384 eir 192.168.1.250 utilities jstoker 192.168.1.250 1261837389 + :eir
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42D UID 42DAAAAAB 1262657875 StatisticServ stats.jcs.me.uk stats.jcs.me.uk stats 0.0.0.0 1262657875 +io :Stats Server
+RAW : :42DAAAAAB OPERTYPE Service
+
+
+TEXT: :42DAAAAAB OPERTYPE Service
+MSG2: Service
+NICK: 42DAAAAAB (42DAAAAAB)
+CMND: OPERTYPE
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWSA 1262918394 rwg|Windows 71.234.249.100 71.234.249.100 ~rwg 71.234.249.100 1262918399 +o :rwg
+RAW : :42AAACWSA OPERTYPE IRCop
+
+
+TEXT: :42AAACWSA OPERTYPE IRCop
+MSG2: IRCop
+NICK: 42AAACWSA (42AAACWSA)
+CMND: OPERTYPE
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42Z UID 42ZAABIV7 1262815689 IdleRPG localhost SpartaIRC/Utility-Bot/IdleRPG jstoker 127.0.0.1 1262815694 +i :http://www.slashnet.org/~bot/
+RAW : :692 METADATA 42ZAABIV7 accountname :idlerpg
+
+
+TEXT: idlerpg
+MSG2: 42ZAABIV7
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWPS 1262915206 [Kill_it_with_fire] 99.230.185.197 99.230.185.197 ~Steve 99.230.185.197 1262900504 + :Steven
+RAW : :692 METADATA 42AAACWPS accountname :nalbyonghap
+
+
+TEXT: nalbyonghap
+MSG2: 42AAACWPS
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :43D UID 43DAAAAAA 1262911980 Defender defender.jcs.me.uk defender.jcs.me.uk Defender 0.0.0.0 1262911980 +io :Defender
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWQ8 1262911624 rwg 71.234.249.100 SpartaIRC/Staff/rwg ~rwg 71.234.249.100 1262911629 +ow :rwg
+RAW : :42AAACWQ8 OPERTYPE IRCop
+
+
+TEXT: :42AAACWQ8 OPERTYPE IRCop
+MSG2: IRCop
+NICK: 42AAACWQ8 (42AAACWQ8)
+CMND: OPERTYPE
+USER:  
+
+RAW : :692 METADATA 42AAACWQ8 accountname :rwg
+
+
+TEXT: rwg
+MSG2: 42AAACWQ8
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :692 UID 692AAAAAL 1262906287 root 127.1.33.7 SpartaIRC/Developer/Chazz dabomb69 127.1.33.7 1262906279 +osw +CQcq :Chazz Wolcott
+RAW : :692AAAAAL OPERTYPE NetAdmin
+
+
+TEXT: :692AAAAAL OPERTYPE NetAdmin
+MSG2: NetAdmin
+NICK: 692AAAAAL (692AAAAAL)
+CMND: OPERTYPE
+USER:  
+
+RAW : :692 METADATA 692AAAAAL accountname :Chazz
+
+
+TEXT: Chazz
+MSG2: 692AAAAAL
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42S UID 42SAAAAAF 1262045835 Global this.is.GLOBAL this.is.GLOBAL Global 0.0.0.0 1262045835 +io :Network Announcements
+RAW : :42SAAAAAF OPERTYPE Services
+
+
+TEXT: :42SAAAAAF OPERTYPE Services
+MSG2: Services
+NICK: 42SAAAAAF (42SAAAAAF)
+CMND: OPERTYPE
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWK6 1262855481 Fayne 68.2.174.154 ProjectCommunity/Moderator/Fayne Fayne 68.2.174.154 1262855486 + :Fayne
+RAW : :692 METADATA 42AAACWK6 accountname :Fayne
+
+
+TEXT: Fayne
+MSG2: 42AAACWK6
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWK8 1262855500 dbdii407 75.119.27.177 scrapirc/staff/founder/dbdii407 ~dbdii407 75.119.27.177 1262855505 + :scrapirc
+RAW : :692 METADATA 42AAACWK8 accountname :dbdii407
+
+
+TEXT: dbdii407
+MSG2: 42AAACWK8
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42S UID 42SAAAAAD 1262045835 OperServ this.is.SPARTAAAA this.is.SPARTAAAA OperServ 0.0.0.0 1262045835 +io :Operator Services
+RAW : :42SAAAAAD OPERTYPE Services
+
+
+TEXT: :42SAAAAAD OPERTYPE Services
+MSG2: Services
+NICK: 42SAAAAAD (42SAAAAAD)
+CMND: OPERTYPE
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWP1 1262901922 Suiseiseki 76.184.94.222 wikipedia/Antonio-Lopez ~desu 76.184.94.222 1262901927 +x :desu you mama
+RAW : :692 METADATA 42AAACWP1 accountname :Suiseiseki
+
+
+TEXT: Suiseiseki
+MSG2: 42AAACWP1
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42Z UID 42ZAABIWP 1262923212 Minamo webirc.int gateway/web/spartairc 43b70ef8 192.168.1.203 1262923217 + :67.183.14.248 - http://webirc.jcs.me.uk/
+RAW : :692 METADATA 42ZAABIWP accountname :Minamo
+
+
+TEXT: Minamo
+MSG2: 42ZAABIWP
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42U UID 42UAAAAAY 1262902296 Kitty 192.168.1.209 SpartaIRC/Developer/JStoker JStoker 192.168.1.209 1262038252 +osw +ACGJKLNOQacdfgjklnoqtx :JStoker
+RAW : :42UAAAAAY OPERTYPE JStoker
+
+
+TEXT: :42UAAAAAY OPERTYPE JStoker
+MSG2: JStoker
+NICK: 42UAAAAAY (42UAAAAAY)
+CMND: OPERTYPE
+USER:  
+
+RAW : :42UAAAAAY AWAY :Auto Away at Fri Jan  8 04:07:54 2010
+
+
+TEXT: Auto Away at Fri Jan  8 04:07:54 2010
+MSG2: :Auto
+NICK: 42UAAAAAY (42UAAAAAY)
+CMND: AWAY
+USER:  
+
+RAW : :692 METADATA 42UAAAAAY accountname :JStoker
+
+
+TEXT: JStoker
+MSG2: 42UAAAAAY
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWST 1262922728 Lugburz 67.160.120.196 67.160.120.196 ~chatzilla 67.160.120.196 1262922733 +i :New Now Know How
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42D UID 42DAAAAAC 1262657875 Denora stats.jcs.me.uk stats.jcs.me.uk stats 0.0.0.0 1262657875 +io :Stats Server Forwarder
+RAW : :42DAAAAAC OPERTYPE Service
+
+
+TEXT: :42DAAAAAC OPERTYPE Service
+MSG2: Service
+NICK: 42DAAAAAC (42DAAAAAC)
+CMND: OPERTYPE
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :692 UID 692AAAAAV 1262912380 Guest79315 0::1 0::1 moo 0::1 1262912284 +i :Chazz - Pidgin
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWSP 1262922196 multimarlen 98.202.196.76 98.202.196.76 ~multimarlen 98.202.196.76 1262922201 + :JZBot -- http://jzbot.googlecode.com
+SEND: :666AAAAAA PRIVMSG # :CONNECT :134 UID 134AAAACT 1262744583 dbbot 75.119.27.177 DCDEB4.F95CFD.4C0888.09B240 dbbot 75.119.27.177 1262744588 +x :ScrapServ IRC Bot
+RAW : :692 METADATA 134AAAACT accountname :ScrapServ
+
+
+TEXT: ScrapServ
+MSG2: 134AAAACT
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWMI 1262910490 Ambur|ares 98.170.207.192 SpartaIRC/Staff/Ambur amber 98.170.207.192 1262867418 +io :Splappy
+RAW : :42AAACWMI OPERTYPE IRCop
+
+
+TEXT: :42AAACWMI OPERTYPE IRCop
+MSG2: IRCop
+NICK: 42AAACWMI (42AAACWMI)
+CMND: OPERTYPE
+USER:  
+
+RAW : :692 METADATA 42AAACWMI accountname :Ambur
+
+
+TEXT: Ambur
+MSG2: 42AAACWMI
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42Z UID 42ZAABIWO 1262922687 WebIRC|Test webirc.int gateway/web/spartairc c0a80103 192.168.1.203 1262922692 + :zeus.int/192.168.1.3 - http://webirc.jcs.me.uk/
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWL9 1262864434 ElectricMaster 24.11.212.79 unaffiliated/electric_master ~chatzilla 24.11.212.79 1262864439 +iw :I am a person
+RAW : :692 METADATA 42AAACWL9 accountname :Electric|Master
+
+
+TEXT: ElectricMaster
+MSG2: 42AAACWL9
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42H UID 42HAAAABN 1262906268 idoru athena.int idoru idoru 192.168.1.250 1262906273 +os +CNcn :idoru is not dead
+RAW : :42HAAAABN OPERTYPE NetworkService
+
+
+TEXT: :42HAAAABN OPERTYPE NetworkService
+MSG2: NetworkService
+NICK: 42HAAAABN (42HAAAABN)
+CMND: OPERTYPE
+USER:  
+
+RAW : :692 METADATA 42HAAAABN accountname :Idoru
+
+
+TEXT: Idoru
+MSG2: 42HAAAABN
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42A UID 42AAACWOU 1262892141 Fayne_ 68.2.174.154 68.2.174.154 ~chatzilla 68.2.174.154 1262891808 +i :She wants my dick in and/or around her mouth
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42S UID 42SAAAAAG 1262045835 SaslServ this.is.SASLSERV this.is.SASLSERV SaslServ 0.0.0.0 1262045835 +io :SASL Authentication Agent
+RAW : :42SAAAAAG OPERTYPE Services
+
+
+TEXT: :42SAAAAAG OPERTYPE Services
+MSG2: Services
+NICK: 42SAAAAAG (42SAAAAAG)
+CMND: OPERTYPE
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42H UID 42HAAAABD 1260670600 LoveServ 192.168.1.250 utilities jstoker 192.168.1.250 1260670605 + :LoveServ! /msg LoveServ help - Hosted and developed by JStoker.
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42H UID 42HAAAABK 1262058740 Bopm irc.int bopm.jcs.me.uk ~bopm 192.168.1.201 1262058745 + :Blitzed Open Proxy Monitor
+RAW : :42HAAAABK AWAY :I'm a bot.  Your messages will be ignored.
+
+
+TEXT: I'm a bot.  Your messages will be ignored.
+MSG2: :I'm
+NICK: 42HAAAABK (42HAAAABK)
+CMND: AWAY
+USER:  
+
+RAW : :692 METADATA 42HAAAABK accountname :Bopm
+
+
+TEXT: Bopm
+MSG2: 42HAAAABK
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+SEND: :666AAAAAA PRIVMSG # :CONNECT :42H UID 42HAAAAAC 1258901011 StatServ 192.168.1.201 ares.jcs.me.uk/stats stats 192.168.1.201 1258901016 +Bios +cjknoqx :StatServ by JStoker. Nun4U
+RAW : :42HAAAAAC OPERTYPE JStoker
+
+
+TEXT: :42HAAAAAC OPERTYPE JStoker
+MSG2: JStoker
+NICK: 42HAAAAAC (42HAAAAAC)
+CMND: OPERTYPE
+USER:  
+
+RAW : :692 METADATA 42HAAAAAC accountname :StatServ
+
+
+TEXT: StatServ
+MSG2: 42HAAAAAC
+NICK: 692 (692)
+CMND: METADATA
+USER:  
+
+RAW : :692 FJOIN #cia 1262907022 +nt :o,42AAACWQK
+
+
+TEXT: o,42AAACWQK
+MSG2: #cia
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #lobby 1262572229 +CJSTnt 1 :v,42AAACWP1 ,42AAACWLK o,42DAAAAAB o,42SAAAAAL ,42AAACWSP o,134AAAACT h,42AAACWLH o,42HAAAAAC oq,692AAAAAL h,42AAACWP6 ao,42AAACWMI oq,134AAAAC3 ,42AAACWSR ao,42AAACWQ2 ,42AAACWSA oq,42AAACWK8 ,42AAACWPS v,42AAACWQK oq,134AAAAB4 ,42AAACWK6 o,42AAACWSS oq,42UAAAAAY ao,42AAACWQ8 ,42AAACWL9
+
+
+TEXT: v,42AAACWP1 ,42AAACWLK o,42DAAAAAB o,42SAAAAAL ,42AAACWSP o,134AAAACT h,42AAACWLH o,42HAAAAAC oq,692AAAAAL h,42AAACWP6 ao,42AAACWMI oq,134AAAAC3 ,42AAACWSR ao,42AAACWQ2 ,42AAACWSA oq,42AAACWK8 ,42AAACWPS v,42AAACWQK oq,134AAAAB4 ,42AAACWK6 o,42AAACWSS oq,42UAAAAAY ao,42AAACWQ8 ,42AAACWL9
+MSG2: #lobby
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #lobby 1262584712 Chazz!dabomb69@SpartaIRC/Developer/Chazz :Register your nick with NickServ | GRF: http://tinyurl.com/spartagrf | Stats at http://bit.ly/2UG9Md | http://webirc.jcs.me.uk/ | http://spartabin.co.cc/ | Server Rules and Oper Rules: www.ospaste.com/spartairc.pdf (And /motd) | HAPPY NEW YEARS! | Thanks, and you too to the magic topic changing elf.
+
+
+TEXT: Register your nick with NickServ  GRF: http://tinyurl.com/spartagrf  Stats at http://bit.ly/2UG9Md  http://webirc.jcs.me.uk/  http://spartabin.co.cc/  Server Rules and Oper Rules: www.ospaste.com/spartairc.pdf (And /motd)  HAPPY NEW YEARS!  Thanks, and you too to the magic topic changing elf.
+MSG2: #lobby
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #the-corner 1262647063 +nst :o,42UAAAAAY
+
+
+TEXT: o,42UAAAAAY
+MSG2: #the-corner
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #wolf 1262901962 +nt :,42AAACWP1 ,42AAACWQK
+
+
+TEXT: ,42AAACWP1 ,42AAACWQK
+MSG2: #wolf
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #wolf 1261454137 Chazz :Read what ChanServ says. | Remember Staff, it's !kill, not /kill. ;P
+
+
+TEXT: Read what ChanServ says.  Remember Staff, it's !kill, not /kill. ;P
+MSG2: #wolf
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #øpers 1262038285 +nst :o,42UAAAAAY
+
+
+TEXT: o,42UAAAAAY
+MSG2: #øpers
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #yppalps 1262821646 +nst :,42UAAAAAY
+
+
+TEXT: ,42UAAAAAY
+MSG2: #yppalps
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #services 1258734770 +Onst :ao,42DAAAAAB o,42SAAAAAL h,42HAAAAAC o,42SAAAAAH o,42SAAAAAG o,42SAAAAAF ,42AAACWMI v,134AAAAC3 o,42SAAAAAE o,42SAAAAAB o,42SAAAAAD v,42UAAAAAY
+
+
+TEXT: ao,42DAAAAAB o,42SAAAAAL h,42HAAAAAC o,42SAAAAAH o,42SAAAAAG o,42SAAAAAF ,42AAACWMI v,134AAAAC3 o,42SAAAAAE o,42SAAAAAB o,42SAAAAAD v,42UAAAAAY
+MSG2: #services
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #services 1259900715 Chazz!Chazz@SpartaIRC/Staff/root :#services, where services and the servers spit out random stuff! :D
+
+
+TEXT: #services, where services and the servers spit out random stuff! :D
+MSG2: #services
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #chaz 1262907030 +nt :o,42AAACWQK
+
+
+TEXT: o,42AAACWQK
+MSG2: #chaz
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #spartairc-dev 1262843241 +Ont :o,42SAAAAAL h,42UAAAAAY
+
+
+TEXT: o,42SAAAAAL h,42UAAAAAY
+MSG2: #spartairc-dev
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN ## 1262922932 +nst :aoq,42UAAAAAY
+
+
+TEXT: aoq,42UAAAAAY
+MSG2: ##
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC ## 1260235423 JStoker :JStoker's server development channel. Gtfo. ♥
+
+
+TEXT: JStoker's server development channel. Gtfo. ♥
+MSG2: ##
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #m00 1262593496 +OPnst :o,42SAAAAAL ,42UAAAAAY
+
+
+TEXT: o,42SAAAAAL ,42UAAAAAY
+MSG2: #m00
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #m00 1262594019 Schlafend :I have came out of the closet.  I am a lesbian.
+
+
+TEXT: I have came out of the closet.  I am a lesbian.
+MSG2: #m00
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #amburs-wolfbot 1262907026 +nt :,42AAACWQK
+
+
+TEXT: ,42AAACWQK
+MSG2: #amburs-wolfbot
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #amburs-wolfbot 1261447069 Ambur` :Ambur's wolfgame bot, under developmentzorz
+
+
+TEXT: Ambur's wolfgame bot, under developmentzorz
+MSG2: #amburs-wolfbot
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #spartairc 1258734769 +BJSTnt 1 :o,42SAAAAAL h,42HAAAAAC ,42AAACWSA v,42UAAAAAY
+
+
+TEXT: o,42SAAAAAL h,42HAAAAAC ,42AAACWSA v,42UAAAAAY
+MSG2: #spartairc
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN ### 1262922880 +Oint :o,134AAAAC3 ,42UAAAAAY
+
+
+TEXT: o,134AAAAC3 ,42UAAAAAY
+MSG2: ###
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC ### 1262923007 Chazz!dabomb69@SpartaIRC/Developer/Chazz :Teh chii megarspam crapz
+
+
+TEXT: Teh chii megarspam crapz
+MSG2: ###
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #opers 1258812798 +Ot :o,42SAAAAAL ,42HAAAAAC ,42UAAAAAY
+
+
+TEXT: o,42SAAAAAL ,42HAAAAAC ,42UAAAAAY
+MSG2: #opers
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #opers 1259344701 Chazz!~Chazz@SpartaIRC/Staff/root :Opers only. | 05HAI! WELCOME TO SPARTAIRC'S #OPERS! :D
+
+
+TEXT: Opers only.  05HAI! WELCOME TO SPARTAIRC'S #OPERS! :D
+MSG2: #opers
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #stats 1258735092 +Oinst :o,42SAAAAAL aoq,42HAAAAAC aoq,42UAAAAAY
+
+
+TEXT: o,42SAAAAAL aoq,42HAAAAAC aoq,42UAAAAAY
+MSG2: #stats
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #stats 1260295688 JStoker!JStoker@SpartaIRC/Staff/JStoker :Get Out. The only person allowed in this channel is JStoker, StatServ, and Denora/StatisticServ. If you are not in that list, you are not allowed in this channel
+
+
+TEXT: Get Out. The only person allowed in this channel is JStoker, StatServ, and Denora/StatisticServ. If you are not in that list, you are not allowed in this channel
+MSG2: #stats
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FMODE #stats 1258735092 +II akb!jstoker@utilities akb!jstoker@192.168.1.250
+
+
+TEXT: :692 FMODE #stats 1258735092 +II akb!jstoker@utilities akb!jstoker@192.168.1.250
+MSG2: #stats
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FJOIN #CUCUMBERSEX 1262901962 +nt :,42AAACWP1
+
+
+TEXT: ,42AAACWP1
+MSG2: #CUCUMBERSEX
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #help 1262647601 +Llmnstu #spartairc 1 :o,42SAAAAAL
+
+
+TEXT: o,42SAAAAAL
+MSG2: #help
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #opers-grf 1258734770 +OPnst :o,42SAAAAAL v,42UAAAAAY
+
+
+TEXT: o,42SAAAAAL v,42UAAAAAY
+MSG2: #opers-grf
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : :692 FMODE #opers-grf 1258734770 +b *!*@services.spartairc.co.cc
+
+
+TEXT: :692 FMODE #opers-grf 1258734770 +b *!*@services.spartairc.co.cc
+MSG2: #opers-grf
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FMODE #opers-grf 1258734770 +bb *!*@173.212.211.74 *!*@bb-183-006.omnitelcom.com
+
+
+TEXT: :692 FMODE #opers-grf 1258734770 +bb *!*@173.212.211.74 *!*@bb-183-006.omnitelcom.com
+MSG2: #opers-grf
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #opers-grf 1256850651 JStoker :Opers Group Registration Form Channel. | GRF: http://tinyurl.com/spartagrf | Edit the GRF: http://bit.ly/2oGz3U | GRF Entries Spreadsheet: http://bit.ly/jprdV
+
+
+TEXT: Opers Group Registration Form Channel.  GRF: http://tinyurl.com/spartagrf  Edit the GRF: http://bit.ly/2oGz3U  GRF Entries Spreadsheet: http://bit.ly/jprdV
+MSG2: #opers-grf
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #flood 1262922557 +nt :o,42AAACWSS
+
+
+TEXT: o,42AAACWSS
+MSG2: #flood
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #penis 1262574814 +nt :o,42SAAAAAL
+
+
+TEXT: o,42SAAAAAL
+MSG2: #penis
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #Staff 1262322077 +Onst :,42HAAAABN o,42SAAAAAL ,42HAAAAAC ,692AAAAAL ,42AAACWMI ,134AAAAC3 ,42AAACWSA ,134AAAAB4 ,42UAAAAAY ,42AAACWQ8
+
+
+TEXT: ,42HAAAABN o,42SAAAAAL ,42HAAAAAC ,692AAAAAL ,42AAACWMI ,134AAAAC3 ,42AAACWSA ,134AAAAB4 ,42UAAAAAY ,42AAACWQ8
+MSG2: #Staff
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #cloak 1262086157 +Llnstu #vhost 1 :o,42SAAAAAL aoq,42UAAAAAY
+
+
+TEXT: o,42SAAAAAL aoq,42UAAAAAY
+MSG2: #cloak
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN # 1262557304 +nt :o,42SAAAAAL ,42HAAAAAC ao,134AAAAC3 ao,134AAAAB4 v,42UAAAAAY
+
+
+TEXT: o,42SAAAAAL ,42HAAAAAC ao,134AAAAC3 ao,134AAAAB4 v,42UAAAAAY
+MSG2: #
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : :692 FMODE # 1262557304 +bb *!*@chii *!*@unaffiliated/nick
+
+
+TEXT: :692 FMODE # 1262557304 +bb *!*@chii *!*@unaffiliated/nick
+MSG2: #
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FMODE # 1262557304 +bb *!*@0::1 *!*@gateway/web/spartairc
+
+
+TEXT: :1 *!*@gateway/web/spartairc
+MSG2: #
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FMODE # 1262557304 +bb *!*@NickServer.Net *!*@sparta-3682b085.omnitelcom.com
+
+
+TEXT: :692 FMODE # 1262557304 +bb *!*@NickServer.Net *!*@sparta-3682b085.omnitelcom.com
+MSG2: #
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC # 1262763845 Chazz!dabomb69@SpartaIRC/Developer/Chazz :U:Sparta IRC Services Control Channel || If not authorized, please exit or be /forcibly/ removed. || Thanks for flying SpartaIRC!
+
+
+TEXT: U:Sparta IRC Services Control Channel  If not authorized, please exit or be /forcibly/ removed.  Thanks for flying SpartaIRC!
+MSG2: #
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #dɔɾ 1262907034 +nt :,42AAACWSP aoq,42AAACWQK ,42AAACWSS
+
+
+TEXT: ,42AAACWSP aoq,42AAACWQK ,42AAACWSS
+MSG2: #dɔɾ
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #chii 1262731797 +nst :o,42SAAAAAL ,42AAACWQK ,42UAAAAAY
+
+
+TEXT: o,42SAAAAAL ,42AAACWQK ,42UAAAAAY
+MSG2: #chii
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #chii 1262731824 Chazz!dabomb69@SpartaIRC/Developer/Chazz :Development discussion of chii | Ideas welcome! | I LIEK COCK! | IN MY MOUTH!
+
+
+TEXT: Development discussion of chii  Ideas welcome!  I LIEK COCK!  IN MY MOUTH!
+MSG2: #chii
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #chazzz 1262708748 +nst :,42AAACWSS o,42UAAAAAY
+
+
+TEXT: ,42AAACWSS o,42UAAAAAY
+MSG2: #chazzz
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #utilities 1262825096 +nt :o,42SAAAAAL
+
+
+TEXT: o,42SAAAAAL
+MSG2: #utilities
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #utilities 1257721298 JStoker :IRC Utilities: Please apply here if you wish to have a bot/services/utility ran on the utilities VPS. Utilities has two IRCd's ran. Athena and Hera. (Hera is U:Lined, and restricted to trusted opers only)
+
+
+TEXT: IRC Utilities: Please apply here if you wish to have a bot/services/utility ran on the utilities VPS. Utilities has two IRCd's ran. Athena and Hera. (Hera is U:Lined, and restricted to trusted opers only)
+MSG2: #utilities
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #orgy 1258734770 +APnt :,42AAACWP1 ,42DAAAAAB o,42SAAAAAL ,42HAAAAAC h,42AAACWMI aoq,42UAAAAAY
+
+
+TEXT: ,42AAACWP1 ,42DAAAAAB o,42SAAAAAL ,42HAAAAAC h,42AAACWMI aoq,42UAAAAAY
+MSG2: #orgy
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : :692 FMODE #orgy 1258734770 +b *!*@i.want.to.be.sodomized
+
+
+TEXT: :692 FMODE #orgy 1258734770 +b *!*@i.want.to.be.sodomized
+MSG2: #orgy
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #orgy 1262754486 Ambur!Ambur@SpartaIRC/Staff/Ambur :Random sex happens here. *sex* Also where random coding happens. *coding*
+
+
+TEXT: Random sex happens here. *sex* Also where random coding happens. *coding*
+MSG2: #orgy
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #JStoker 1262858703 +nst :aoq,42AAACWQK ,42AAACWSS ,42UAAAAAY
+
+
+TEXT: aoq,42AAACWQK ,42AAACWSS ,42UAAAAAY
+MSG2: #JStoker
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #Nick 1262557632 +nt :o,42SAAAAAL aov,134AAAAC3 ao,42UAAAAAY
+
+
+TEXT: o,42SAAAAAL aov,134AAAAC3 ao,42UAAAAAY
+MSG2: #Nick
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #Nick 1262880963 Nick!Nick@NickServer.Net :Uhm... Randomawgasms and buttsecks may occur.. Just watch out O_o
+
+
+TEXT: Uhm... Randomawgasms and buttsecks may occur.. Just watch out O_o
+MSG2: #Nick
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #defocus 1258734767 +mnt :,42AAACWP1 ,42DAAAAAB o,42SAAAAAL v,42HAAAAAC ov,42AAACTNQ v,42UAAAAAY
+
+
+TEXT: ,42AAACWP1 ,42DAAAAAB o,42SAAAAAL v,42HAAAAAC ov,42AAACTNQ v,42UAAAAAY
+MSG2: #defocus
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #defocus 1261847783 Kitty!~JStoker@SpartaIRC/Developer/JStoker :Welcome to #defocus, SpartaIRC's official help channel! =) - Please read /motd - Please keep this channel clear for all support issues. - Poke a staffer if there is a issue you want dicussing in private. (PM's are allowed, without asking.)
+
+
+TEXT: Welcome to #defocus, SpartaIRC's official help channel! =) - Please read /motd - Please keep this channel clear for all support issues. - Poke a staffer if there is a issue you want dicussing in private. (PM's are allowed, without asking.)
+MSG2: #defocus
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #jcs-moo 1262911995 +nst :,134AAAAC3 o,42UAAAAAY
+
+
+TEXT: ,134AAAAC3 o,42UAAAAAY
+MSG2: #jcs-moo
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #denora 1258734833 +JOimnst 2147483647 :ao,42DAAAAAB o,42SAAAAAL ,42HAAAAAC
+
+
+TEXT: ao,42DAAAAAB o,42SAAAAAL ,42HAAAAAC
+MSG2: #denora
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #denora 1259960359 JStoker!JStoker@SpartaIRC/Staff/JStoker :Get Out. The only person allowed in this channel is JStoker, StatServ, and Denora/StatisticServ. If you are not in that list, you are not allowed in this channel
+
+
+TEXT: Get Out. The only person allowed in this channel is JStoker, StatServ, and Denora/StatisticServ. If you are not in that list, you are not allowed in this channel
+MSG2: #denora
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #wall 1262574223 +nst :o,42UAAAAAY
+
+
+TEXT: o,42UAAAAAY
+MSG2: #wall
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #gtfo 1259014422 +ilmnstu 151 :o,42SAAAAAL ,42HAAAAAC
+
+
+TEXT: o,42SAAAAAL ,42HAAAAAC
+MSG2: #gtfo
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #gtfo 1259025456 Rawwr :Get the fuck off this network.
+
+
+TEXT: Get the fuck off this network.
+MSG2: #gtfo
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #gserv 1261775455 +int :o,42SAAAAAL
+
+
+TEXT: o,42SAAAAAL
+MSG2: #gserv
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #cbanned-channel 1262035566 +JPnst 1337 :
+
+
+TEXT: 
+MSG2: #cbanned-channel
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #chass 1262042367 +nt :o,42SAAAAAL ,42AAACWSP aoq,42AAACWQK aoq,42AAACWSS
+
+
+TEXT: o,42SAAAAAL ,42AAACWSP aoq,42AAACWQK aoq,42AAACWSS
+MSG2: #chass
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #spartairc-idsfnsdf 1262650230 +nst :o,42UAAAAAY
+
+
+TEXT: o,42UAAAAAY
+MSG2: #spartairc-idsfnsdf
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #jcs-def 1261778734 +Oinst :o,42SAAAAAL
+
+
+TEXT: o,42SAAAAAL
+MSG2: #jcs-def
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #botwar 1259172215 +lmnt 502 :o,42SAAAAAL o,42AAACWQK o,42AAACWSS aoq,42UAAAAAY
+
+
+TEXT: o,42SAAAAAL o,42AAACWQK o,42AAACWSS aoq,42UAAAAAY
+MSG2: #botwar
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #botwar 1261012062 ChanServ!ChanServ@this.is.CHANSERV :#BotWar. Don't piss anyone off, coz EVERYONE has op's! - Used for Bot-Testing, and the likes. - Please avoid setting ban/invite exemptions.
+
+
+TEXT: #BotWar. Don't piss anyone off, coz EVERYONE has op's! - Used for Bot-Testing, and the likes. - Please avoid setting ban/invite exemptions.
+MSG2: #botwar
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FMODE #botwar 1259172215 +ee *!*@SpartaIRC/Developer/* *!*@SpartaIRC/Staff/*
+
+
+TEXT: :692 FMODE #botwar 1259172215 +ee *!*@SpartaIRC/Developer/* *!*@SpartaIRC/Staff/*
+MSG2: #botwar
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FMODE #botwar 1259172215 +I ElectricBot!*@*
+
+
+TEXT: :692 FMODE #botwar 1259172215 +I ElectricBot!*@*
+MSG2: #botwar
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FJOIN #staff-servers 1262415887 +Onst :,42HAAAABN o,42SAAAAAL ,42HAAAAAC ,134AAAAC3 ,42UAAAAAY
+
+
+TEXT: ,42HAAAABN o,42SAAAAAL ,42HAAAAAC ,134AAAAC3 ,42UAAAAAY
+MSG2: #staff-servers
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #jcs 1258734836 +JOPilnst 1337 51 :v,42DAAAAAB o,42SAAAAAL v,42HAAAAAC v,42HAAAABK ,134AAAAC3 v,43DAAAAAA aoq,42UAAAAAY
+
+
+TEXT: v,42DAAAAAB o,42SAAAAAL v,42HAAAAAC v,42HAAAABK ,134AAAAC3 v,43DAAAAAA aoq,42UAAAAAY
+MSG2: #jcs
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #jcs 1262020591 JStoker :JStoker's channel. Gtfo. ♥ - Ich liebe dich - I ♥ freenode - Ich ♥ Ambur
+
+
+TEXT: JStoker's channel. Gtfo. ♥ - Ich liebe dich - I ♥ freenode - Ich ♥ Ambur
+MSG2: #jcs
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FMODE #jcs 1258734836 +III git*!*@* *!*@SpartaIRC/Developer/* Bopm!~bopm@bopm.jcs.me.uk
+
+
+TEXT: :692 FMODE #jcs 1258734836 +III git*!*@* *!*@SpartaIRC/Developer/* Bopm!~bopm@bopm.jcs.me.uk
+MSG2: #jcs
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FJOIN #scrapirc 1262708805 +nt :,42AAACWSP ,134AAAACT o,42AAACWQK ,42AAACWSS
+
+
+TEXT: ,42AAACWSP ,134AAAACT o,42AAACWQK ,42AAACWSS
+MSG2: #scrapirc
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #sparta 1262895842 +Llmnstu #spartairc 1 :o,42SAAAAAL
+
+
+TEXT: o,42SAAAAAL
+MSG2: #sparta
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #Blar 1262922564 +nt :o,42AAACWSS
+
+
+TEXT: o,42AAACWSS
+MSG2: #Blar
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #ǝɯosǝʍɐ-sı-dɔɾ 1262907018 +nt :o,42AAACWQK ,42AAACWSS
+
+
+TEXT: o,42AAACWQK ,42AAACWSS
+MSG2: #ǝɯosǝʍɐ-sı-dɔɾ
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN ##chazzz 1262907037 +nt :,42AAACWSP aoq,42AAACWQK
+
+
+TEXT: ,42AAACWSP aoq,42AAACWQK
+MSG2: ##chazzz
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #spartairc-bots 1261983769 +nt :o,42SAAAAAL
+
+
+TEXT: o,42SAAAAAL
+MSG2: #spartairc-bots
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #spartairc-bots 1261984275 Chazz :Welcome to #spartairc-bots, home of the many random network utility bots, services, etc! =) 
+
+
+TEXT: Welcome to #spartairc-bots, home of the many random network utility bots, services, etc! =) 
+MSG2: #spartairc-bots
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #dabomb69 1262907034 +nt :aoq,42AAACWQK ,42AAACWSS
+
+
+TEXT: aoq,42AAACWQK ,42AAACWSS
+MSG2: #dabomb69
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #thantos-defender-testing 1262913562 +nt :o,42AAACWRE ,134AAAAC3
+
+
+TEXT: o,42AAACWRE ,134AAAAC3
+MSG2: #thantos-defender-testing
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #projectcommunity 1258734770 +Tnt :,42AAACWOU ,42ZAABIWP ,42DAAAAAB o,42SAAAAAL oq,42AAACWLH ,42HAAAAAC ,42AAACWMI ,42AAACWPS ,42AAACWQK ,42AAACWST ,42AAACWLA o,42AAACWK6 ,42UAAAAAY
+
+
+TEXT: ,42AAACWOU ,42ZAABIWP ,42DAAAAAB o,42SAAAAAL oq,42AAACWLH ,42HAAAAAC ,42AAACWMI ,42AAACWPS ,42AAACWQK ,42AAACWST ,42AAACWLA o,42AAACWK6 ,42UAAAAAY
+MSG2: #projectcommunity
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : :692 FMODE #projectcommunity 1258734770 +b m:[Hate_This_You_Motherfucker]!*@*
+
+
+TEXT: [Hate_This_You_Motherfucker]!*@*
+MSG2: #projectcommunity
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #projectcommunity 1262575401 MasterOfDisguise!~chatzilla@ProjectCommunity/GC/MasterOfDisguise :Welcome to the official Project: Community channel. Enjoy the new year, fuckers! Stats: http://bit.ly/kJPQs | FB: http://bit.ly/8YJdkG. Old ChatZilla motif: http://bit.ly/2BOZ2U
+
+
+TEXT: Welcome to the official Project: Community channel. Enjoy the new year, fuckers! Stats: http://bit.ly/kJPQs  FB: http://bit.ly/8YJdkG. Old ChatZilla motif: http://bit.ly/2BOZ2U
+MSG2: #projectcommunity
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FMODE #projectcommunity 1258734770 +e MasterOfDisguise!~chatzilla@ProjectCommunity/GC/MasterOfDisguise
+
+
+TEXT: :692 FMODE #projectcommunity 1258734770 +e MasterOfDisguise!~chatzilla@ProjectCommunity/GC/MasterOfDisguise
+MSG2: #projectcommunity
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FJOIN #♥ 1262907018 +nt :o,42AAACWQK
+
+
+TEXT: o,42AAACWQK
+MSG2: #♥
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FJOIN #root 1258929233 +Ast :o,42DAAAAAB o,42SAAAAAL v,42AAACWMI
+
+
+TEXT: o,42DAAAAAB o,42SAAAAAL v,42AAACWMI
+MSG2: #root
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : :692 FMODE #root 1258929233 +bb *!*@127.0.0.2 *!*@ares.jcs.me.uk/stats
+
+
+TEXT: :692 FMODE #root 1258929233 +bb *!*@127.0.0.2 *!*@ares.jcs.me.uk/stats
+MSG2: #root
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FMODE #root 1258929233 +b *!*@bb-183-006.omnitelcom.com
+
+
+TEXT: :692 FMODE #root 1258929233 +b *!*@bb-183-006.omnitelcom.com
+MSG2: #root
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FMODE #root 1258929233 +b *!*@gateway/irc/chaos
+
+
+TEXT: :692 FMODE #root 1258929233 +b *!*@gateway/irc/chaos
+MSG2: #root
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FMODE #root 1258929233 +b *!*@gateway/irc/eos
+
+
+TEXT: :692 FMODE #root 1258929233 +b *!*@gateway/irc/eos
+MSG2: #root
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #root 1259638068 Kitty!JStoker@SpartaIRC/Staff/JStoker :U:Sparta IRC Services!
+
+
+TEXT: U:Sparta IRC Services!
+MSG2: #root
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FMODE #root 1258929233 +e *!CIA@cia.vc
+
+
+TEXT: :692 FMODE #root 1258929233 +e *!CIA@cia.vc
+MSG2: #root
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FMODE #root 1258929233 +I *!CIA@cia.vc
+
+
+TEXT: :692 FMODE #root 1258929233 +I *!CIA@cia.vc
+MSG2: #root
+NICK: 692 (692)
+CMND: FMODE
+USER:  
+
+RAW : :692 FJOIN ##you_have_got_to_be_kidding 1262041742 +Mmntu :o,42SAAAAAL
+
+
+TEXT: o,42SAAAAAL
+MSG2: ##you_have_got_to_be_kidding
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC ##you_have_got_to_be_kidding 1262041957 JStoker :Hi, you should probably read the network policy page (http://spartairc.co.cc/policy.html#general) and maybe some information about the network (http://spartairc.co.cc and http://spartairc.co.cc/philosophy.html) and maybe find a better network ;) (http://irc.netsplit.de/networks).  Thanks!
+
+
+TEXT: Hi, you should probably read the network policy page (http://spartairc.co.cc/policy.html#general) and maybe some information about the network (http://spartairc.co.cc and http://spartairc.co.cc/philosophy.html) and maybe find a better network ;) (http://irc.netsplit.de/networks).  Thanks!
+MSG2: ##you_have_got_to_be_kidding
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 FJOIN #idlerpg 1260463453 +Amnst :v,42AAACWOU o,42SAAAAAL o,42ZAABIV7 v,42AAACWST ,42AAACWK6 v,42UAAAAAY
+
+
+TEXT: v,42AAACWOU o,42SAAAAAL o,42ZAABIV7 v,42AAACWST ,42AAACWK6 v,42UAAAAAY
+MSG2: #idlerpg
+NICK: 692 (692)
+CMND: FJOIN
+USER:  
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  
+
+RAW : :692 FTOPIC #idlerpg 1261331453 Kitty :IdleRPG! Please register with /msg idlerpg register then follow instructions. | To login again /msg IdleRPG LOGIN <USER> <PASSWORD>
+
+
+TEXT: IdleRPG! Please register with /msg idlerpg register then follow instructions.  To login again /msg IdleRPG LOGIN <USER> <PASSWORD>
+MSG2: #idlerpg
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  
+
+RAW : :692 ADDLINE E *@*.int chaos.spartairc.co.cc 1262570803 0 :Internal
+
+
+TEXT: Internal
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@*::1 <Config> 1262728982 0 :Localhost
+
+
+TEXT: :1 <Config> 1262728982 0 :Localhost
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@127.*.*.* <Config> 1262728982 0 :Localhost
+
+
+TEXT: Localhost
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@127.0.0.1 chaos.spartairc.co.cc 1260746556 0 :Win!
+
+
+TEXT: Win!
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@173.212.211.* chaos.spartairc.co.cc 1259522357 0 :SpartaIRC
+
+
+TEXT: SpartaIRC
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@192.168.1.209 chaos.spartairc.co.cc 1259201270 0 :Local ZNC
+
+
+TEXT: Local ZNC
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@208.126.182.* chaos.spartairc.co.cc 1259474311 0 :Opers hostname
+
+
+TEXT: Opers hostname
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@208.126.183.6 chaos.spartairc.co.cc 1262415068 0 :Opers hostname
+
+
+TEXT: Opers hostname
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@64.191.106.* chaos.spartairc.co.cc 1259474311 0 :Sparta Services
+
+
+TEXT: Sparta Services
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@64.191.106.92 chaos.spartairc.co.cc 1259533018 0 :SpartaIRC
+
+
+TEXT: SpartaIRC
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@hades chaos.spartairc.co.cc 1258734804 0 :Opers hostname
+
+
+TEXT: Opers hostname
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@ircop.host.com <Config> 1262728982 0 :Opers hostname
+
+
+TEXT: Opers hostname
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@localhost <Config> 1262728982 0 :Localhost
+
+
+TEXT: Localhost
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE E *@zeus chaos.spartairc.co.cc 1258734804 0 :Opers hostname
+
+
+TEXT: Opers hostname
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE G *@*dyn.ihug.co.nz chaos.spartairc.co.cc 1258756457 0 :DIE MOTHER FUCKERS.
+
+
+TEXT: DIE MOTHER FUCKERS.
+MSG2: G
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE G *@118.93.* chaos.spartairc.co.cc 1259715544 0 :User has been banned from this network
+
+
+TEXT: User has been banned from this network
+MSG2: G
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE G *@118.93.29.85 chaos.spartairc.co.cc 1259108104 0 :You have been banned from this network. - TheTosh.
+
+
+TEXT: You have been banned from this network. - TheTosh.
+MSG2: G
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE G *@118.93.93.141 chaos.spartairc.co.cc 1259715455 0 :User has been banned from this network
+
+
+TEXT: User has been banned from this network
+MSG2: G
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE G *@74.141.211.116 chaos.spartairc.co.cc 1259540000 0 :were warned
+
+
+TEXT: were warned
+MSG2: G
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE G c6a17902@*.mibbit.com chaos.spartairc.co.cc 1259952469 0 :You have been banned from this network.
+
+
+TEXT: You have been banned from this network.
+MSG2: G
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE G ~765c2bcf@192.168.1.203 chaos.spartairc.co.cc 1259422658 0 :You have been banned from this network.
+
+
+TEXT: You have been banned from this network.
+MSG2: G
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE G ~CIA@208.69.182.149 chaos.spartairc.co.cc 1262106356 0 :No CIA bots allowed on this network.
+
+
+TEXT: No CIA bots allowed on this network.
+MSG2: G
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q *gay* chaos.spartairc.co.cc 1258799603 0 :No homophobia kthx
+
+
+TEXT: No homophobia kthx
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q *KITTY*SU* chaos.spartairc.co.cc 1260993119 0 :No, Kitty doesn't suck... 3
+
+
+TEXT: No, Kitty doesn't suck... 3
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q *Nazi* chaos.spartairc.co.cc 1262648892 0 :No nazi jokes are welcome here.
+
+
+TEXT: No nazi jokes are welcome here.
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q *S3rv chaos.spartairc.co.cc 1262059815 0 :Impersonation of services?
+
+
+TEXT: Impersonation of services?
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q *Surv chaos.spartairc.co.cc 1262572305 0 :Impersonation of services
+
+
+TEXT: Impersonation of services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q AuthServ <Config> 1262728982 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q BotServ <Config> 1262728982 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q ChanServ <Config> 1262728982 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q chii chaos.spartairc.co.cc 1262415068 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q GameServ <Config> 1262728982 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q HostServ <Config> 1262728982 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q JSt0ker chaos.spartairc.co.cc 1261497082 0 :Impersonating a staffer.
+
+
+TEXT: Impersonating a staffer.
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q JSt4* chaos.spartairc.co.cc 1262060002 0 :No impersonation.
+
+
+TEXT: No impersonation.
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q JSta* chaos.spartairc.co.cc 1262059994 0 :No impersonation.
+
+
+TEXT: No impersonation.
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q JupeServ <Config> 1262728982 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q MemoServ <Config> 1262728982 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q NickServ <Config> 1262728982 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q OperServ <Config> 1262728982 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q RootServ <Config> 1262728982 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Q Y chaos.spartairc.co.cc 1261944408 0 :Impersonation of services
+
+
+TEXT: Impersonation of services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE R *freenode*!*@* Chazz 1262757027 0 :nun4u
+
+
+TEXT: nun4u
+MSG2: R
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE R TheTosh!*@* chaos.spartairc.co.cc 1262120763 0 :Die! <3
+
+
+TEXT: Die! <3
+MSG2: R
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE SHUN CIA-4!*@208.69.182.149 chaos.spartairc.co.cc 1262030933 0 :x
+
+
+TEXT: x
+MSG2: SHUN
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Z *74-141-211-116.dhcp.insightbb.com chaos.spartairc.co.cc 1259540475 0 :away
+
+
+TEXT: away
+MSG2: Z
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Z 118.*.*.* chaos.spartairc.co.cc 1259411536 0 :You have been banned from this network.
+
+
+TEXT: You have been banned from this network.
+MSG2: Z
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Z 118.92.42.* chaos.spartairc.co.cc 1259411525 0 :You have been banned from this network
+
+
+TEXT: You have been banned from this network
+MSG2: Z
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Z 118.92.42.147 chaos.spartairc.co.cc 1258901325 0 :You have been banned from this network.
+
+
+TEXT: You have been banned from this network.
+MSG2: Z
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Z 118.92.43.* chaos.spartairc.co.cc 1259411522 0 :You have been banned from this network
+
+
+TEXT: You have been banned from this network
+MSG2: Z
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Z 69.69.69.69 <Config> 1262739592 0 :No porn here thanks.
+
+
+TEXT: No porn here thanks.
+MSG2: Z
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ADDLINE Z 74.115.1.* chaos.spartairc.co.cc 1258901313 0 :You have been banned from this network.
+
+
+TEXT: You have been banned from this network.
+MSG2: Z
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  
+
+RAW : :692 ENDBURST
+
+
+TEXT: :692 ENDBURST
+MSG2: 
+NICK: 692 (692)
+CMND: ENDBURST
+USER:  
+
+RAW : :42DAAAAAB STATS u chii.
+
+
+TEXT: :42DAAAAAB STATS u chii.
+MSG2: u
+NICK: 42DAAAAAB (42DAAAAAB)
+CMND: STATS
+USER:  
+
+RAW : :42DAAAAAB STATS U chii.
+
+
+TEXT: :42DAAAAAB STATS U chii.
+MSG2: U
+NICK: 42DAAAAAB (42DAAAAAB)
+CMND: STATS
+USER:  
+
+RAW : :42DAAAAAC PRIVMSG chii :VERSION
+
+
+TEXT: VERSION
+MSG2: 42DAAAAAC
+NICK: 42DAAAAAC (42DAAAAAC)
+CMND: PRIVMSG
+USER:  
+
+SEND: :666AAAAAA NOTICE 42DAAAAAC :VERSION chii 0.1 by daBomb69 
+SEND: :666AAAAAA NOTICE Chazz :42DAAAAAC requested VERSION
+RAW : :42S PING 42S 666
+
+
+TEXT: :42S PING 42S 666
+MSG2: 42S
+NICK: 42S (42S)
+CMND: PING
+USER:  
+
+SEND: :666 PONG 666 42S
+RAW : :42SAAAAAD PRIVMSG #services :OPER: chii (chii.)
+
+
+TEXT: OPER: chii (chii.)
+MSG2: #services
+NICK: 42SAAAAAD (42SAAAAAD)
+CMND: PRIVMSG
+USER:  
+
+RAW : :42SAAAAAL FMODE # 1262557304 +ao 666AAAAAA 666AAAAAA
+
+
+TEXT: :42SAAAAAL FMODE # 1262557304 +ao 666AAAAAA 666AAAAAA
+MSG2: #
+NICK: 42SAAAAAL (42SAAAAAL)
+CMND: FMODE
+USER:  
+
+RAW : :42SAAAAAL FMODE #lobby 1262572229 +o 666AAAAAA
+
+
+TEXT: :42SAAAAAL FMODE #lobby 1262572229 +o 666AAAAAA
+MSG2: #lobby
+NICK: 42SAAAAAL (42SAAAAAL)
+CMND: FMODE
+USER:  
+
+RAW : :43DAAAAAA PRIVMSG chii :VERSION
+
+
+TEXT: VERSION
+MSG2: 43DAAAAAA
+NICK: 43DAAAAAA (43DAAAAAA)
+CMND: PRIVMSG
+USER:  
+
+SEND: :666AAAAAA NOTICE 43DAAAAAA :VERSION chii 0.1 by daBomb69 
+SEND: :666AAAAAA NOTICE Chazz :43DAAAAAA requested VERSION
+RAW : :42E PRIVMSG #services :LINK: Received end of netburst from athena.jcs.me.uk (burst time: 42782 secs)
+
+
+TEXT: LINK: Received end of netburst from athena.jcs.me.uk (burst time: 42782 secs)
+MSG2: #services
+NICK: 42E (42E)
+CMND: PRIVMSG
+USER:  
+
+RAW : :42E PRIVMSG #services :LINK: (last message repeated 3 times)
+
+
+TEXT: LINK: (last message repeated 3 times)
+MSG2: #services
+NICK: 42E (42E)
+CMND: PRIVMSG
+USER:  
+
+
+U:Sparta: caught SIGINT, dying
+SEND: :666AAAAAA QUIT :Ack! SIGINT!!

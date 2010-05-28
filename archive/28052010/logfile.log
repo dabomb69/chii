@@ -1,0 +1,682 @@
+Executing config file...  [  [32mOK[0m  ] (chii from commands.conf)
+Trying Time::HiRes...     [  [32mOK[0m  ] (hi-resolution ping times enabled)
+Trying to set alarm...    [  [32mOK[0m  ] (will detect timeout)
+Loading modules...
+Loading factoids...       [  [32mOK[0m  ] (loaded 3 factoids (0 denied))
+Connecting to server...   [  [32mOK[0m  ] (connected to 127.0.0.1:7000)
+SEND: SERVER chii. password 0 666 :Chii (Hideki is the hentai in all of us)
+SEND: BURST
+SEND: :666 VERSION :Chii (Hideki is the hentai in all of us)
+SEND: :666 UID 666AAAAAA 1 chii chii. chii chii 127.0.0.1 1 +iIwks +* :Chii (Hideki is the hentai in all of us)
+SEND: :666AAAAAA OPERTYPE Service
+SEND: ENDBURST
+SEND: PRIVMSG # :Connected to 127.0.0.1
+SEND: :666AAAAAA JOIN #services
+SEND: :666AAAAAA WHO #services
+SEND: :666 FMODE #services 1 +ao chii chii
+SEND: :666 PRIVMSG # :Channel #services joined.
+SEND: :666AAAAAA JOIN #
+SEND: :666 FMODE # 1 +ao chii chii
+SEND: :666AAAAAA JOIN #lobby
+SEND: :666AAAAAA WHO #lobby
+SEND: :666 FMODE #lobby 1 +ao chii chii
+SEND: :666 PRIVMSG # :Channel #lobby joined.
+SEND: :666AAAAAA JOIN #
+SEND: :666 FMODE # 1 +ao chii chii
+SEND: :666AAAAAA JOIN #artemis
+SEND: :666AAAAAA WHO #artemis
+SEND: :666 FMODE #artemis 1 +ao chii chii
+SEND: :666 PRIVMSG # :Channel #artemis joined.
+SEND: :666AAAAAA JOIN #
+SEND: :666 FMODE # 1 +ao chii chii
+SEND: :666	METADATA 666AAAAAA accountname chii
+RAW : CAPAB START
+
+
+TEXT: CAPAB START
+MSG2: 
+NICK: CAPAB (CAPAB)
+CMND: START
+USER:  ADDFACTS 
+
+RAW : CAPAB MODULES m_allowinvite.so,m_alltime.so,m_auditorium.so,m_banexception.so,m_banredirect.so,m_blockcaps.so,m_blockcolor.so,m_botmode.so,m_callerid.so,m_cban.so,m_chanfilter.so,m_channelban.so,m_chanprotect.so,m_chghost.so,m_chgident.so,m_chgname.so,m_cloaking.so,m_commonchans.so,m_customtitle.so,m_deaf.so,m_delayjoin.so,m_gecosban.so,m_globops.so,m_helpop.so,m_hidechans.so,m_hideoper.so,m_invisible.so,m_inviteexception.so,m_joinflood.so,m_kicknorejoin.so,m_knock.so,m_messageflood.so,m_muteban.so
+
+
+TEXT: CAPAB MODULES m_allowinvite.so,m_alltime.so,m_auditorium.so,m_banexception.so,m_banredirect.so,m_blockcaps.so,m_blockcolor.so,m_botmode.so,m_callerid.so,m_cban.so,m_chanfilter.so,m_channelban.so,m_chanprotect.so,m_chghost.so,m_chgident.so,m_chgname.so,m_cloaking.so,m_commonchans.so,m_customtitle.so,m_deaf.so,m_delayjoin.so,m_gecosban.so,m_globops.so,m_helpop.so,m_hidechans.so,m_hideoper.so,m_invisible.so,m_inviteexception.so,m_joinflood.so,m_kicknorejoin.so,m_knock.so,m_messageflood.so,m_muteban.so
+MSG2: m_allowinvite.so,m_alltime.so,m_auditorium.so,m_banexception.so,m_banredirect.so,m_blockcaps.so,m_blockcolor.so,m_botmode.so,m_callerid.so,m_cban.so,m_chanfilter.so,m_channelban.so,m_chanprotect.so,m_chghost.so,m_chgident.so,m_chgname.so,m_cloaking.so,m_commonchans.so,m_customtitle.so,m_deaf.so,m_delayjoin.so,m_gecosban.so,m_globops.so,m_helpop.so,m_hidechans.so,m_hideoper.so,m_invisible.so,m_inviteexception.so,m_joinflood.so,m_kicknorejoin.so,m_knock.so,m_messageflood.so,m_muteban.so
+NICK: CAPAB (CAPAB)
+CMND: MODULES
+USER:  ADDFACTS 
+
+RAW : CAPAB MODULES m_nickflood.so,m_nicklock.so,m_noctcp.so,m_nokicks.so,m_nonicks.so,m_nonotice.so,m_nopartmsg.so,m_operchans.so,m_operinvex.so,m_permchannels.so,m_remove.so,m_sajoin.so,m_sakick.so,m_sanick.so,m_sapart.so,m_saquit.so,m_serverban.so,m_services_account.so,m_servprotect.so,m_setident.so,m_shun.so,m_svshold.so,m_swhois.so,m_timedbans.so,m_uninvite.so
+
+
+TEXT: CAPAB MODULES m_nickflood.so,m_nicklock.so,m_noctcp.so,m_nokicks.so,m_nonicks.so,m_nonotice.so,m_nopartmsg.so,m_operchans.so,m_operinvex.so,m_permchannels.so,m_remove.so,m_sajoin.so,m_sakick.so,m_sanick.so,m_sapart.so,m_saquit.so,m_serverban.so,m_services_account.so,m_servprotect.so,m_setident.so,m_shun.so,m_svshold.so,m_swhois.so,m_timedbans.so,m_uninvite.so
+MSG2: m_nickflood.so,m_nicklock.so,m_noctcp.so,m_nokicks.so,m_nonicks.so,m_nonotice.so,m_nopartmsg.so,m_operchans.so,m_operinvex.so,m_permchannels.so,m_remove.so,m_sajoin.so,m_sakick.so,m_sanick.so,m_sapart.so,m_saquit.so,m_serverban.so,m_services_account.so,m_servprotect.so,m_setident.so,m_shun.so,m_svshold.so,m_swhois.so,m_timedbans.so,m_uninvite.so
+NICK: CAPAB (CAPAB)
+CMND: MODULES
+USER:  ADDFACTS 
+
+RAW : CAPAB CAPABILITIES :NICKMAX=32 HALFOP=1 CHANMAX=65 MAXMODES=20 IDENTMAX=12 MAXQUIT=256 MAXTOPIC=308 MAXKICK=256 MAXGECOS=129 MAXAWAY=201 IP6NATIVE=1 IP6SUPPORT=1 PROTOCOL=1201 CHALLENGE='!-'q}-+seis)+)w PREFIX=(qaohv)~&@%+ CHANMODES=Ibeg,k,FJfjl,ABCDKMNOPQRTcimnprstu USERMODES=,,s,BHIQRcdghikorwx SVSPART=1
+
+
+TEXT: CAPAB CAPABILITIES :NICKMAX=32 HALFOP=1 CHANMAX=65 MAXMODES=20 IDENTMAX=12 MAXQUIT=256 MAXTOPIC=308 MAXKICK=256 MAXGECOS=129 MAXAWAY=201 IP6NATIVE=1 IP6SUPPORT=1 PROTOCOL=1201 CHALLENGE='!-'q}-+seis)+)w PREFIX=(qaohv)~&@%+ CHANMODES=Ibeg,k,FJfjl,ABCDKMNOPQRTcimnprstu USERMODES=,,s,BHIQRcdghikorwx SVSPART=1
+MSG2: :NICKMAX=32
+NICK: NICKMAX=32 (NICKMAX=32)
+CMND: HALFOP=1
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : CAPAB END
+
+
+TEXT: CAPAB END
+MSG2: 
+NICK: CAPAB (CAPAB)
+CMND: END
+USER:  ADDFACTS 
+
+RAW : SERVER chaos.spartairc.co.cc password 0 692 :Sparta Project IRC
+
+
+TEXT: SERVER chaos.spartairc.co.cc password 0 692 :Sparta Project IRC
+MSG2: password
+NICK: Sparta (Sparta)
+CMND: Project
+USER:  ADDFACTS 
+
+RAW : :692 BURST 1260732704
+
+
+TEXT: :692 BURST 1260732704
+MSG2: 1260732704
+NICK: 692 (692)
+CMND: BURST
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 VERSION :InspIRCd-1.2 chaos.spartairc.co.cc :Linux Chaos 2.6.28-11-generic (InspIRCd-1.2.1) [FLAGS=0,epoll,692]
+
+
+TEXT: InspIRCd-1.2 chaos.spartairc.co.cc :Linux Chaos 2.6.28-11-generic (InspIRCd-1.2.1) [FLAGS=0,epoll,692]
+MSG2: :InspIRCd-1.2
+NICK: 692 (692)
+CMND: VERSION
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :chaos.spartairc.co.cc SERVER services.spartairc.co.cc * 1 00A :Atheme IRC Services
+
+
+TEXT: Atheme IRC Services
+MSG2: services.spartairc.co.cc
+NICK: chaos.spartairc.co.cc (chaos.spartairc.co.cc)
+CMND: SERVER
+USER:  ADDFACTS 
+
+RAW : :services.spartairc.co.cc VERSION :atheme-5.0. 00A FjtRr
+
+
+TEXT: atheme-5.0. 00A FjtRr
+MSG2: :atheme-5.0.
+NICK: services.spartairc.co.cc (services.spartairc.co.cc)
+CMND: VERSION
+USER:  ADDFACTS 
+
+RAW : :00A UID 00AAAAAAE 1260732304 SaslServ services.int services.int saslserv 0.0.0.0 1260732304 +Iiko :SASL Authentication Agent
+
+
+TEXT: SASL Authentication Agent
+MSG2: 00AAAAAAE
+NICK: 00A (00A)
+CMND: UID
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAE OPERTYPE Services
+
+
+TEXT: :00AAAAAAE OPERTYPE Services
+MSG2: Services
+NICK: 00AAAAAAE (00AAAAAAE)
+CMND: OPERTYPE
+USER:  ADDFACTS 
+
+RAW : :00A UID 00AAAAAAB 1260732304 NickServ services services nickserv 0.0.0.0 1260732304 +Iiko :Nickname Services
+
+
+TEXT: Nickname Services
+MSG2: 00AAAAAAB
+NICK: 00A (00A)
+CMND: UID
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAB OPERTYPE Services
+
+
+TEXT: :00AAAAAAB OPERTYPE Services
+MSG2: Services
+NICK: 00AAAAAAB (00AAAAAAB)
+CMND: OPERTYPE
+USER:  ADDFACTS 
+
+RAW : :692 UID 692AAAAAC 1260731817 dabomb69 0::1 SpartaIRC/Developer/Chazz Chazz 0::1 1260731822 +osx +ACGJKLNOQacdfgjklnoqtx :Chazz
+
+
+TEXT: :1 SpartaIRC/Developer/Chazz Chazz 0::1 1260731822 +osx +ACGJKLNOQacdfgjklnoqtx :Chazz
+MSG2: 692AAAAAC
+NICK: 692 (692)
+CMND: UID
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692AAAAAC OPERTYPE NetAdmin
+
+
+TEXT: :692AAAAAC OPERTYPE NetAdmin
+MSG2: NetAdmin
+NICK: 692AAAAAC (692AAAAAC)
+CMND: OPERTYPE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 METADATA 692AAAAAC accountname :Chazz
+
+
+TEXT: Chazz
+MSG2: 692AAAAAC
+NICK: 692 (692)
+CMND: METADATA
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :00A UID 00AAAAAAJ 1260732304 HostServ services services hostserv 0.0.0.0 1260732304 +Iiko :Host Management Services
+
+
+TEXT: Host Management Services
+MSG2: 00AAAAAAJ
+NICK: 00A (00A)
+CMND: UID
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAJ OPERTYPE Services
+
+
+TEXT: :00AAAAAAJ OPERTYPE Services
+MSG2: Services
+NICK: 00AAAAAAJ (00AAAAAAJ)
+CMND: OPERTYPE
+USER:  ADDFACTS 
+
+RAW : :00A UID 00AAAAAAF 1260732304 OperServ services services operserv 0.0.0.0 1260732304 +Iiko :Operator Services
+
+
+TEXT: Operator Services
+MSG2: 00AAAAAAF
+NICK: 00A (00A)
+CMND: UID
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAF OPERTYPE Services
+
+
+TEXT: :00AAAAAAF OPERTYPE Services
+MSG2: Services
+NICK: 00AAAAAAF (00AAAAAAF)
+CMND: OPERTYPE
+USER:  ADDFACTS 
+
+RAW : :00A UID 00AAAAAAK 1260732304 ALIS services services alis 0.0.0.0 1260732304 +Iiko :Channel Directory
+
+
+TEXT: Channel Directory
+MSG2: 00AAAAAAK
+NICK: 00A (00A)
+CMND: UID
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAK OPERTYPE Services
+
+
+TEXT: :00AAAAAAK OPERTYPE Services
+MSG2: Services
+NICK: 00AAAAAAK (00AAAAAAK)
+CMND: OPERTYPE
+USER:  ADDFACTS 
+
+RAW : :00A UID 00AAAAAAI 1260732304 MemoServ services services memoserv 0.0.0.0 1260732304 +Iiko :Memo Services
+
+
+TEXT: Memo Services
+MSG2: 00AAAAAAI
+NICK: 00A (00A)
+CMND: UID
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAI OPERTYPE Services
+
+
+TEXT: :00AAAAAAI OPERTYPE Services
+MSG2: Services
+NICK: 00AAAAAAI (00AAAAAAI)
+CMND: OPERTYPE
+USER:  ADDFACTS 
+
+RAW : :00A UID 00AAAAAAC 1260732304 BotServ services services botserv 0.0.0.0 1260732304 +Iiko :Bot Services
+
+
+TEXT: Bot Services
+MSG2: 00AAAAAAC
+NICK: 00A (00A)
+CMND: UID
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAC OPERTYPE Services
+
+
+TEXT: :00AAAAAAC OPERTYPE Services
+MSG2: Services
+NICK: 00AAAAAAC (00AAAAAAC)
+CMND: OPERTYPE
+USER:  ADDFACTS 
+
+RAW : :00A UID 00AAAAAAM 1260732304 ChanServ services services chanserv 0.0.0.0 1260732304 +Iiko :Channel Services
+
+
+TEXT: Channel Services
+MSG2: 00AAAAAAM
+NICK: 00A (00A)
+CMND: UID
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAM OPERTYPE Services
+
+
+TEXT: :00AAAAAAM OPERTYPE Services
+MSG2: Services
+NICK: 00AAAAAAM (00AAAAAAM)
+CMND: OPERTYPE
+USER:  ADDFACTS 
+
+RAW : :692 UID 692AAAAAD 1260731968 dabomb69_ 0::1 8542F3D6 dabomb69 0::1 1260731973 +ix :Chazz Wolcott
+
+
+TEXT: :1 8542F3D6 dabomb69 0::1 1260731973 +ix :Chazz Wolcott
+MSG2: 692AAAAAD
+NICK: 692 (692)
+CMND: UID
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :00A UID 00AAAAAAH 1260732304 GameServ services services gameserv 0.0.0.0 1260732304 +Iiko :Game Services
+
+
+TEXT: Game Services
+MSG2: 00AAAAAAH
+NICK: 00A (00A)
+CMND: UID
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAH OPERTYPE Services
+
+
+TEXT: :00AAAAAAH OPERTYPE Services
+MSG2: Services
+NICK: 00AAAAAAH (00AAAAAAH)
+CMND: OPERTYPE
+USER:  ADDFACTS 
+
+RAW : :00A UID 00AAAAAAG 1260732304 Global services services global 0.0.0.0 1260732304 +Iiko :Network Announcements
+
+
+TEXT: Network Announcements
+MSG2: 00AAAAAAG
+NICK: 00A (00A)
+CMND: UID
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAG OPERTYPE Services
+
+
+TEXT: :00AAAAAAG OPERTYPE Services
+MSG2: Services
+NICK: 00AAAAAAG (00AAAAAAG)
+CMND: OPERTYPE
+USER:  ADDFACTS 
+
+RAW : :692 FJOIN #jcs 1260639114 +nt :o,00AAAAAAM v,692AAAAAC
+
+
+TEXT: o,00AAAAAAM v,692AAAAAC
+MSG2: #jcs
+NICK: 692 (692)
+CMND: FJOIN
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  ADDFACTS 
+
+RAW : :692 FJOIN # 1260503196 +nt :o,00AAAAAAM oq,692AAAAAC
+
+
+TEXT: o,00AAAAAAM oq,692AAAAAC
+MSG2: #
+NICK: 692 (692)
+CMND: FJOIN
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  ADDFACTS 
+
+RAW : :692 FJOIN #lobby 1 +nt :o,00AAAAAAM oq,692AAAAAC ,692AAAAAD
+
+
+TEXT: o,00AAAAAAM oq,692AAAAAC ,692AAAAAD
+MSG2: #lobby
+NICK: 692 (692)
+CMND: FJOIN
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  ADDFACTS 
+
+RAW : :692 FJOIN #services 1260731825 +nt :o,00AAAAAAF o,00AAAAAAM o,00AAAAAAC o,00AAAAAAE o,00AAAAAAG o,00AAAAAAH o,00AAAAAAI o,00AAAAAAJ o,00AAAAAAK o,00AAAAAAB o,692AAAAAC
+
+
+TEXT: o,00AAAAAAF o,00AAAAAAM o,00AAAAAAC o,00AAAAAAE o,00AAAAAAG o,00AAAAAAH o,00AAAAAAI o,00AAAAAAJ o,00AAAAAAK o,00AAAAAAB o,692AAAAAC
+MSG2: #services
+NICK: 692 (692)
+CMND: FJOIN
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  ADDFACTS 
+
+RAW : :692 FJOIN #opers 1260731771 +is :,692AAAAAC
+
+
+TEXT: ,692AAAAAC
+MSG2: #opers
+NICK: 692 (692)
+CMND: FJOIN
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : 
+
+
+TEXT: 
+MSG2: 
+NICK:  ()
+CMND: 
+USER:  ADDFACTS 
+
+RAW : :692 FTOPIC #opers 42 chaos.spartairc.co.cc :Opers only.
+
+
+TEXT: Opers only.
+MSG2: #opers
+NICK: 692 (692)
+CMND: FTOPIC
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE E *@ircop.host.com <Config> 1260731771 0 :Opers hostname
+
+
+TEXT: Opers hostname
+MSG2: E
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE Q AuthServ <Config> 1260731771 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE Q BotServ <Config> 1260731771 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE Q ChanServ <Config> 1260731771 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE Q GameServ <Config> 1260731946 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE Q HostServ <Config> 1260731771 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE Q JupeServ <Config> 1260731946 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE Q MemoServ <Config> 1260731771 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE Q NickServ <Config> 1260731771 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE Q OperServ <Config> 1260731771 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE Q RootServ <Config> 1260731946 0 :Reserved For Services
+
+
+TEXT: Reserved For Services
+MSG2: Q
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ADDLINE Z 69.69.69.69 <Config> 1260731771 0 :No porn here thanks.
+
+
+TEXT: No porn here thanks.
+MSG2: Z
+NICK: 692 (692)
+CMND: ADDLINE
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :692 ENDBURST
+
+
+TEXT: :692 ENDBURST
+MSG2: 
+NICK: 692 (692)
+CMND: ENDBURST
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :00A PING 00A 666
+
+
+TEXT: :00A PING 00A 666
+MSG2: 00A
+NICK: 00A (00A)
+CMND: PING
+USER:  ADDFACTS 
+
+SEND: :666 PONG 666 692
+RAW : :692 PRIVMSG #artemis :REMOTECHANCREATE: Channel #artemis created by chii!chii@chii.
+
+
+TEXT: REMOTECHANCREATE: Channel #artemis created by chii!chii@chii.
+MSG2: #artemis
+NICK: 692 (692)
+CMND: PRIVMSG
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :00AAAAAAF PRIVMSG #services :OPER: chii (chii.)
+
+
+TEXT: OPER: chii (chii.)
+MSG2: #services
+NICK: 00AAAAAAF (00AAAAAAF)
+CMND: PRIVMSG
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAM FMODE # 1260503196 -o 666AAAAAA
+
+
+TEXT: :00AAAAAAM FMODE # 1260503196 -o 666AAAAAA
+MSG2: #
+NICK: 00AAAAAAM (00AAAAAAM)
+CMND: FMODE
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAM FMODE # 1260503196 -oo 666AAAAAA 666AAAAAA
+
+
+TEXT: :00AAAAAAM FMODE # 1260503196 -oo 666AAAAAA 666AAAAAA
+MSG2: #
+NICK: 00AAAAAAM (00AAAAAAM)
+CMND: FMODE
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAF PRIVMSG #services :DESOPER: dabomb69 as Chazz
+
+
+TEXT: DESOPER: dabomb69 as Chazz
+MSG2: #services
+NICK: 00AAAAAAF (00AAAAAAF)
+CMND: PRIVMSG
+USER:  ADDFACTS 
+
+RAW : :00A METADATA 692AAAAAC accountname :
+
+
+TEXT: 
+MSG2: 692AAAAAC
+NICK: 00A (00A)
+CMND: METADATA
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAF PRIVMSG #services :SOPER: dabomb69 as Chazz
+
+
+TEXT: SOPER: dabomb69 as Chazz
+MSG2: #services
+NICK: 00AAAAAAF (00AAAAAAF)
+CMND: PRIVMSG
+USER:  ADDFACTS 
+
+RAW : :00A METADATA 692AAAAAC accountname :Chazz
+
+
+TEXT: Chazz
+MSG2: 692AAAAAC
+NICK: 00A (00A)
+CMND: METADATA
+USER:  ADDFACTS 
+
+RAW : :692 PRIVMSG #artemis :GLOBOPS: From services.spartairc.co.cc: dabomb69 (Chazz) is using MODE on #lobby (set: +s)
+
+
+TEXT: GLOBOPS: From services.spartairc.co.cc: dabomb69 (Chazz) is using MODE on #lobby (set: +s)
+MSG2: #artemis
+NICK: 692 (692)
+CMND: PRIVMSG
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+RAW : :00A SNONOTICE g :dabomb69 (Chazz) is using MODE on #lobby (set: +s)
+
+
+TEXT: dabomb69 (Chazz) is using MODE on #lobby (set: +s)
+MSG2: g
+NICK: 00A (00A)
+CMND: SNONOTICE
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAF PRIVMSG #services :MODE: #lobby +s by dabomb69 (Chazz)
+
+
+TEXT: MODE: #lobby +s by dabomb69 (Chazz)
+MSG2: #services
+NICK: 00AAAAAAF (00AAAAAAF)
+CMND: PRIVMSG
+USER:  ADDFACTS 
+
+RAW : :00AAAAAAF FMODE #lobby 1 +s
+
+
+TEXT: :00AAAAAAF FMODE #lobby 1 +s
+MSG2: #lobby
+NICK: 00AAAAAAF (00AAAAAAF)
+CMND: FMODE
+USER:  ADDFACTS 
+
+RAW : :692AAAAAC PRIVMSG #lobby :chii, quit
+
+
+TEXT: chii, quit
+MSG2: #lobby
+NICK: 692AAAAAC (692AAAAAC)
+CMND: PRIVMSG
+USER:  ADDFACTS DELFACTS DELALLFACTS SERVERMANIP ADMIN OP AV AO SUPERADMIN STAFF SERVEROP GLOBAL 
+
+SEND: :666AAAAAA QUIT :Quit command used by 692AAAAAC. chii powered by chii 0.1
